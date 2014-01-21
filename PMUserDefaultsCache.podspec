@@ -34,7 +34,6 @@ Pod::Spec.new do |s|
   s.source_files  = 'PMUserDefaultsCache', 'PMUserDefaultsCache/**/*.{h,m}'
   s.requires_arc = true
 
-  s.dependency 'EGOCache'
   s.dependency 'Nimbus/Core'
 
 end
