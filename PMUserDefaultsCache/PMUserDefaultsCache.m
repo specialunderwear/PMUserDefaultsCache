@@ -9,7 +9,7 @@
 #import "PMUserDefaultsCache.h"
 
 @interface PMUserDefaultsCache () {
-    __weak NSUserDefaults *_userDefaults;
+    __unsafe_unretained NSUserDefaults *_userDefaults;
     NIMemoryCache *_cache;
 }
 
